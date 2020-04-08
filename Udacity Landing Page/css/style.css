@@ -1,0 +1,62 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 20px;
+    list-style: none;
+    padding: 10px 16px;
+    background: rgb(218, 172, 72);
+
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+section {
+    margin: 100px 100px;
+}
+
+.highlighted {
+    background-color:rgb(209, 211, 205);
+}
+
+.active-class {
+    background-color: rgb(153, 197, 238);
+    color: black;
+}
+
+p {
+    font-family: arial;
+    font-size: 16px;
+    padding: 10px;
+}
+h4  {
+    font-family: arial;
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (min-width:600px) {
+    .con {
+      grid-template-rows: 1100px 200px 200px;
+    }
+  }
+  
+  @media (min-width:900px) {
+    .con {
+      grid-template-rows: 1100px 180px 180px;
+    }
+  }
